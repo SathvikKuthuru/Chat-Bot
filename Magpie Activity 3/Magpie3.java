@@ -60,8 +60,8 @@ public class Magpie3
 		else if(findKeyword(statement, "home") >= 0){
 			response = "There's no place like home!";
 		}
-		else if(findKeyword(statement, "like") >= 0){
-			response = "What else do you like?";
+		else if(findKeyword(statement, "friend") >= 0){
+			response = "I wish I could meet your friend!";
 		}
 		else if(statement.trim().length() == 0){
 			response = "Say something please!";
